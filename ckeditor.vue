@@ -163,6 +163,7 @@ export default {
 			this.$emit("editorInput", this.editorData);
 		},
 		imageRemove(images) {
+		/** HANDLE THE IMAGE DELETION IN YOUR PARENT COMPONENT */
 			this.$emit("imageRemove", images);
 		},
 	},
